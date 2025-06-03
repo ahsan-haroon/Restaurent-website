@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-header">
+        <div class="top-nav">
+            <p>Open hours: Monday - Sunday 8.00AM - 9.00PM</p>
+        </div>
+    </div>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./logo.png" alt="Restaurant Logo">
+            </div>
+            <div class="nav-items">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#menu-section">SEE MENU</a></li>
+                    <li><a href="#blog">BLOG</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="hero-top-video">
+            <video autoplay loop muted id="video">
+                <source src="./video1.mp4" type="video/mp4">  
+            </video>
+        </div>
+        <div class="content-wrapper">
+            <h1>Welcome To Our Rasoi</h1>
+            <h2>Come and taste our healthy and delicious food from our <span>'Rasoi'</span></h2>
+            <div class="book-table">
+                <p>Book Table</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="about-left">
+                <h3>About Us</h3>
+                <h1>Welcome</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quod delectus corrupti iste consequatur nemo, dicta saepe atque nobis dolores?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nisi illum sint eius possimus odio eaque a voluptatum nam commodi officia, consequuntur labore, est sapiente asperiores ut. Autem, quibusdam dolore ad, odit sint quidem hic expedita accusamus, ullam doloremque magnam.</p>
+                <button>Learn More About US</button>
+            </div>
+            <div class="about-right">
+                <img src="./about-page.jpg" alt="Restaurant interior">
+            </div>
+        </div>
+    </div>
+
+    <!-- Menu Section -->
+    <div id="menu-section">
+        <div class="container">
+            <h2 class="heading">Delicious Menu</h2>
+            <div class="row">
+                <div class="menu-card">
+                    <div class="menu-img">
+                        <img src="./menu-1.png" alt="Grilled Chicken with potatoes">
+                    </div>
+                    <div class="menu-text">
+                        <h4>Grilled Chicken with Potatoes</h4>
+                        <p>Chicken, Garlic, Potatoes, Tomatoes</p>
+                        <p class="price">&#36;30</p>
+                        <p class="btn"><a href="#">Order Now</a></p>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-img">
+                        <img src="./menu-2.jpg" alt="Pasta Dish">
+                    </div>
+                    <div class="menu-text">
+                        <h4>Creamy Alfredo Pasta</h4>
+                        <p>Pasta, Cream, Cheese, Mushrooms</p>
+                        <p class="price">&#36;25</p>
+                        <p class="btn"><a href="#">Order Now</a></p>
+                    </div>
+                </div>
+                <div class="menu-card row-reverse">
+                    <div class="menu-img">
+                        <img src="./menu-3.jpg" alt="Salad Dish">
+                    </div>
+                    <div class="menu-text">
+                        <h4>Fresh Garden Salad</h4>
+                        <p>Lettuce, Tomatoes, Cucumber, Olives</p>
+                        <p class="price">&#36;18</p>
+                        <p class="btn"><a href="#">Order Now</a></p>
+                    </div>
+                </div>
+                <div class="menu-card row-reverse">
+                    <div class="menu-img">
+                        <img src="./menu-4.jpg" alt="Dessert">
+                    </div>
+                    <div class="menu-text">
+                        <h4>Chocolate Lava Cake</h4>
+                        <p>Chocolate, Flour, Eggs, Sugar</p>
+                        <p class="price">&#36;12</p>
+                        <p class="btn"><a href="#">Order Now</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog Section -->
+    <div id="blog">
+        <div class="container">
+            <h2 class="heading">Our Recent Blog</h2>
+            <div class="row">
+                <div class="col">
+                    <img src="./blog-1.jpg" alt="Blog post about food">
+                    <div>
+                        <a href="#">June. 03 2025</a>
+                        <a href="#">Admin</a>
+                    </div>
+                    <h3 class="title">Taste the delicious food in Lahore</h3>
+                    <p><a href="#">Read More</a></p>
+                </div>
+                <div class="col">
+                    <img src="./blog-2.jpg" alt="Blog post about cooking">
+                    <div>
+                        <a href="#">June. 03 2025</a>
+                        <a href="#">Admin</a>
+                    </div>
+                    <h3 class="title">The art of cooking perfect steak</h3>
+                    <p><a href="#">Read More</a></p>
+                </div>
+                <div class="col">
+                    <img src="./blog-3.jpg" alt="Blog post about ingredients">
+                    <div>
+                        <a href="#">June. 03 2025</a>
+                        <a href="#">Admin</a>
+                    </div>
+                    <h3 class="title">Fresh ingredients matter</h3>
+                    <p><a href="#">Read More</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact">
+        <div class="container">
+            <div class="contact-form">
+                <h3>Get In Touch</h3>
+                <form action="#">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Enter your Name">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter your Email">
+                    </div>
+                    <div>
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" placeholder="Enter your Mobile No">
+                    </div>
+                    <div>
+                        <label for="date">Date</label>
+                        <input type="date" id="date">
+                    </div>
+                    <div>
+                        <label for="time">Time</label>
+                        <input type="time" id="time">
+                    </div>
+                    <div>
+                        <label for="persons">No. of person</label>
+                        <input type="number" id="persons" placeholder="Enter Number">
+                    </div>
+                    <button type="submit">Book Your Table</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div id="footer">
+        <div class="container">
+            <div class="top-footer">
+                <img src="./logo.png" alt="Restaurant Logo">
+                <div class="footer-links">
+                    <div class="column">
+                        <div>CONTACT</div>
+                        <ul class="col-link">
+                            <li><a href="#">Phone: 0300-1234567</a></li>
+                            <li><a href="#">Email: example@gmail.com</a></li>
+                            <li><a href="#">Open hours: Monday-Sunday 8.00AM-9.00PM</a></li>
+                            <li><a href="#">Address: 123, XYZ Lahore Pakistan</a></li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <div>OUR STORY</div>
+                        <ul class="col-link">
+                            <li><a href="#">Who we are?</a></li>
+                            <li><a href="#">Our Chef</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Menu</a></li>
+                            <li><a href="#">Events</a></li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <div>THE RESTAURANT</div>
+                        <ul class="col-link">
+                            <li><a href="#">Foods</a></li>
+                            <li><a href="#">Our Chef</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Menu</a></li>
+                            <li><a href="#">Events</a></li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <div>SOCIAL LINKS</div>
+                        <ul class="col-link">
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
+                            <li><a href="#"><i class="fa-brands fa-square-instagram"></i> Instagram</a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+                            <li><a href="#"><i class="fa-brands fa-square-twitter"></i> Twitter</a></li>
+                        </ul>
+                        <div class="newsletter">
+                            <input type="text" placeholder="Enter Your email address">
+                            <button>SUBSCRIBE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom">
+            <p>Copyright &copy; 2025 All Right Reserved | Made By Webcoding</p>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('video').playbackRate = 0.25;
+    </script>
+</body>
+</html>
